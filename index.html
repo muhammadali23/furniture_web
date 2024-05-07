@@ -3,21 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gulf paints</title>
+    <title>Furniture_hub</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header section -->
     <header class="header">
-      <a href="#" class="logo"><img src="assets/gulf_logo.png" alt="" srcset=""></a>
-      <!-- navbar section -->
-      <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Gallery</a>
-        <a href="#">Services</a>
+      <nav>
+        <div class="nav_logo"><a href="#">NovusHaus</a></div>
+        <ul class="nav_links" id="nav_links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#craft">Craft</a></li>
+          <li class="link"><a href="#testimonials">Testimonials</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="nnav_menu_btn" id="menu_btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav_actions">
+          <span><i class="ri-search-line"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+        </div>
       </nav>
+      <div class="section_container header_container" id="home">
+        <h1>Make Your Interior More Mnimalistic & Modern</h1>
+        <p>
+          Turn your room with panto into a lot more minimalistic and modern with
+          ease and speed
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Search furniture" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+        <a href="#chose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
     </header>
-    <img id="img1" src="assets/gulf-paint.jpg" alt="" srcset="">
   </body>
 </html>
